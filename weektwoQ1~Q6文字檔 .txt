@@ -1,0 +1,35 @@
+1、
+Inheritance是物件導向技術的一種概念，如果一個Ｂ類繼承自Ａ類，Ｂ稱為Ａ的子類，Ａ稱之為Ｂ的父類，主要是讓子類可以繼承父類的屬性，不需在撰寫相同的程式碼，並且重新定義或覆蓋。
+2、
+在字串中加入你想分割的判斷符號EX:
+fun main(args: Array<String>){
+    var str = "kotlin sepwant to sepbe splited!!"
+    var delimiter = "sep"
+
+    val parts = str.split(delimiter)
+
+    println(parts)
+}
+3、
+map
+fun main(array:Array<String>){
+val map = mapOf<String,Int>("1" to876,"2" to 039,"3" to 947)
+for((i,j)in map){
+println("$i,$j)
+}
+}
+
+4、
+ArrayList 是一種實用存放資料的陣列
+
+LinkedList儲存資料是以node來記錄，利用每個node中的pointer指向下一個node，藉此傳聯多個node形成LinkedList，每個node都會包含一個data和兩個pointer分別指向上一個和下一個記憶體
+
+diff:Array在存放資料是以是有順序存在，若對其中中間一個資料做新增刪除，整個資料順去都會做變動，但相較linkedList更省記憶體，LinkedList需要紀錄上一個跟下一個的位置相對會花費更多記憶體，但是在新增刪除資料時比較簡單，只需調整即可pointer。
+
+5、
+Int,Double,Byte,Short,Long,
+Float,Char,String,Boolean
+
+6、
+(1)2147483647~-2147483647
+(2)轉換成Long使用toLong()做轉換
