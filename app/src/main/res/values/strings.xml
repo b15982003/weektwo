@@ -34,4 +34,26 @@
     <string name="congratulations">Congratulations!</string>
     <string name="share">Share</string>
     <string name="sharing_not_available">Sharing Not Available</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Profile">Profile</string>
+    <string name="my_photo">My Photo</string>
+    <string name="my_name">My name</string>
+    <string name="myname">Name</string>
+    <string name="nick_name">Nick Name</string>
+    <string name="about_me">About Me</string>
+    <string name="Ray_Chang">Ray Chany</string>
+    <string name="Ray">Ray</string>
+    <string name="bio">
+        Hi, my name is Ray.
+       \n\n I like to plat basketball.
+       \n\n My favorite county is Japan.
+       \n\n There is shopping mode very convenience.
+       \n\n so many kind of toys are cheaper
+       \n\n than another place.
+       \n\n When I graduated from university ,
+       \n\n Osaka is my fist city in Japan.
+       \n\n comfortable and beauiful.
+    </string>
 </resources>
